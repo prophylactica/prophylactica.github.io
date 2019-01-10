@@ -1,0 +1,24 @@
+{
+  "name": "prophylactica.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prophylactica/prophylactica.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prophylactica/prophylactica.github.io/issues"
+  },
+  "homepage": "https://github.com/prophylactica/prophylactica.github.io#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
