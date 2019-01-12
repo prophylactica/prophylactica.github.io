@@ -44,10 +44,12 @@ h1::first-letter {
     min-height: 80vh;
     overflow: hidden;
 }
-ul {
+main ul,
+nav ul {
     padding: 20px;
 }
-li {
+main li,
+nav li {
     margin: 15px;
     position: relative;
     border-left: 5px solid yellow;

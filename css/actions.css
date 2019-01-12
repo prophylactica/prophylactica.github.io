@@ -1,0 +1,120 @@
+nav {
+    margin-top: 100px;
+}
+.wrap .content {
+    min-height: 0;
+}
+nav ul li {
+    margin-bottom: 20px!important;
+    cursor: pointer;
+    width: 100%;
+}
+nav ul li > a {    
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+nav ul li:hover {
+    background-color: #002A4A;
+    border-left: 15px solid yellow;
+}
+nav ul li:hover .icon{
+    transform: translateX(10px) scale(1.1);
+}
+h3 {
+    font-size: 1.3em;
+    padding: 30px;
+    padding-bottom: 0;
+}
+.icon {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    transition: 0.2s;
+}
+.icon i {
+    font-size: 2em;
+    color: yellow;
+    transform: rotate(90deg);
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6em;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+h2::first-letter {
+    color: yellow;
+}
+h4 {
+    border-left: 3px solid yellow;
+    padding-left: 15px;
+}
+.text {
+    padding: 18px;
+}
+.text u,
+.text p,
+.text h5 {
+    margin: 10px 0;
+}
+.text ul li {
+    color: yellow;
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.text ul li > span {
+    color: #F8F9F2;
+}
+.file {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.file > div {
+    text-align: center;
+    margin: 0 20px;
+}
+.file i {
+    font-size: 6em;
+    color: yellow;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.file a {
+    font-size: 1.4em;
+    background-color: yellow;
+    color: #002A4A;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    transition: 0.2s;
+    display: inline-block;
+}
+.file a:hover {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transform: translateY(-5px);
+}
+
+a.btn-to-up {
+    position: fixed;
+    background-color: yellow;
+    color: #002A4A;
+    font-size: 1.7em;
+    padding: 7px 15px;
+    right: 0;
+    bottom: 70px;
+    text-transform: uppercase;
+    transition: 0.2s;    
+}
+a.btn-to-up:hover {
+    padding-right: 30px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
