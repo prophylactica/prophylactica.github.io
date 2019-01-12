@@ -25,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
 ol, ul {
 	list-style: none;
 }
-/* reset over */
+/* reset end */
 * {
     box-sizing: border-box;
 }
@@ -35,6 +35,7 @@ ol, ul {
 }
 a {
     text-decoration: none;
+    color: inherit;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -42,108 +43,7 @@ body {
     color: #F8F9F2;
     line-height: 150%;
 }
-h1 {
-    position: absolute;
-    visibility: hidden;
-}
-header {
-    width: 100%;
-}
-header img {
-    width: 100%;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-}
-
-.description h2 {
-    letter-spacing: 5px;
-    text-align: center;
-    font-size: 2em;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-.description p {
-    text-align: center;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-h2::first-letter,
-h3::first-letter {
-    color: yellow;
-}
-main {    
-    margin-top: 100px;
-    background-color: #F8F9F2;
-}
-main > div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    transform: translateY(-30px);
-}
-
-.card {
-    background-color: #001729;
-    width: 500px;
-    display: flex;
-    border: #F8F9F2 solid 12px;
-    box-shadow: 0 5px 10px rgba(0,0,0,.3);
-    border-radius: 5px;
-    padding: 15px;
-    line-height: 130%;
-    margin: 10px;
-}
-.card .img {
-    text-align: center;
-    padding: 10px;
-    width: 200px;
-}
-.card .img img {
-    width: auto;
-    height: 150px;
-}
-.card .text {
-    padding: 10px;
-    position: relative;
-}
-.card ul {
-    list-style: disc;
-    color: #B5B6B1;
-    padding-left: 20px;
-    font-size: .9em;
-}
-.card p {    
-    color: #B5B6B1;
-}
-.card .button i {
-    transition: 0.2s;
-    display: inline-block;
-}
-.card .button:hover {
-    transform: translateX(10px);
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.card .button:hover i{
-    transform: scale(2);
-}
-.card .button {
-    transition: 0.2s;
-    background-color: yellow;
-    color: #001729;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    padding: 10px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
-}
 footer {
     padding: 40px;
+    text-align: center;
 }
