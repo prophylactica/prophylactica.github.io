@@ -1,0 +1,46 @@
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    line-height: 130%;
+}
+.wrap .content {
+    min-height: 0;
+}
+ul li {
+    margin-bottom: 30px!important;
+    cursor: pointer;
+    width: 100%;
+}
+ul li > a {    
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+ul li:hover {
+    background-color: #002A4A;
+    border-left: 15px solid yellow;
+}
+ul li:hover .icon{
+    transform: translateX(10px) scale(1.1);
+}
+h3 {
+    font-size: 1.3em;
+    padding: 30px;
+    padding-bottom: 0;
+}
+.icon {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    transition: 0.2s;
+}
+.icon i {
+    font-size: 2em;
+    color: yellow;
+    transform: rotate(90deg);
+}
