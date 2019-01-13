@@ -44,7 +44,7 @@ main > div {
 
 .card {
     background-color: #001729;
-    width: 500px;
+    width: 450px;
     display: flex;
     border: #F8F9F2 solid 12px;
     box-shadow: 0 5px 10px rgba(0,0,0,.3);
